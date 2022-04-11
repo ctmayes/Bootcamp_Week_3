@@ -4,6 +4,8 @@
 
 This program is designed to analyze the arbitrage opportunties that may or may not exist with trading Bitcoin between multiple exchanges, in this case Bitstamp and Coinbase. Initially the program takes in the data frames with the starting data, by default in the dual .csv files within the resources sub-folder. Next we take some intiail steps to prepare and clean the data to ensure future analysis is free of errors that might skew our analysis. To begin parsing the data, the program does overall summaries of the two different exchanges and their closing prices for bitcoin. As an intial analysis, the program then overlays the two data frames together in visual plots to allow for quick high level intepretation of the underlying question of arbitrage opportunity. Finally, we go granular to break down profit potential on specific dates and then take these findings and summarize our findings for easy reference for any interested parties.
 
+For additional reference, bitstamp.csv covers the January through March window of 2018 for the bitstamp exchange, while coinbase.csv covers the same January through March 2018 window except this time for the coinbase exchange. 
+
 ---
 
 ## Technologies
